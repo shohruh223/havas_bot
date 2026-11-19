@@ -1,9 +1,9 @@
 import asyncio
-
 from aiogram import Bot, Dispatcher
+from config import BOT_TOKEN
 from handler import setup_message_routers
 
-API_TOKEN = "8863818964:AAF_JtDJ2k3TiINhZbznf19N_4o3vRlyxVU"
+API_TOKEN = BOT_TOKEN
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
